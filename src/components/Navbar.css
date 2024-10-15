@@ -1,0 +1,43 @@
+/* Navbar container styles */
+.navbar {
+    background-color: #007bff; /* Primary color for the navbar */
+    padding: 10px 20px; /* Padding around the navbar */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+}
+
+/* Navbar links styles */
+.navbar-links {
+    list-style-type: none; /* Remove bullet points */
+    display: flex; /* Use flexbox for horizontal layout */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* Individual link styles */
+.navbar-links li {
+    margin-right: 20px; /* Space between links */
+}
+
+/* Link styles */
+.navbar-links a {
+    text-decoration: none; /* Remove underline from links */
+    color: white; /* Link text color */
+    font-weight: bold; /* Bold text */
+    transition: color 0.3s ease; /* Smooth transition on hover */
+}
+
+/* Link hover effect */
+.navbar-links a:hover {
+    color: #e0e0e0; /* Lighter color on hover */
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+    .navbar-links {
+        flex-direction: column; /* Stack links vertically on small screens */
+    }
+
+    .navbar-links li {
+        margin-bottom: 10px; /* Space between links vertically */
+    }
+}
