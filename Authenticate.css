@@ -1,0 +1,59 @@
+.auth-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f9f9f9; /* Light background color */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #333; /* Darker text color */
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column; /* Stack input fields vertically */
+}
+
+input {
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s ease; /* Smooth transition */
+}
+
+input:focus {
+  border-color: #007bff; /* Highlight border on focus */
+  outline: none; /* Remove outline */
+}
+
+.btn {
+  width:100%;
+  padding: 10px;
+  background-color: #007bff; /* Primary button color */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.btn:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 480px) {
+  .auth-container {
+    margin: 20px; /* Adjust margin on smaller screens */
+  }
+
+  h2 {
+    font-size: 1.5em; /* Slightly smaller heading */
+  }
+}

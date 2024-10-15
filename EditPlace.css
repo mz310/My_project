@@ -1,0 +1,8 @@
+.image-preview {
+    width: 100%; /* Adjust to your desired width */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc; /* Optional: Add a border for better visibility */
+  }
+  

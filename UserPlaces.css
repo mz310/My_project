@@ -1,0 +1,62 @@
+.user-places-container {
+  max-width: 600px;
+  margin: 50px auto; /* Centering the container */
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f9f9f9; /* Light background color */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center; /* Center the heading */
+  color: #333; /* Darker text color */
+  margin-bottom: 20px;
+}
+
+.places-list {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0; /* Remove default padding */
+}
+.place-image{
+  width: 300px;
+}
+.place-item {
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ddd; /* Light border around each place */
+  border-radius: 4px;
+  background-color: #fff; /* White background for items */
+  transition: box-shadow 0.3s ease; /* Smooth transition for shadow */
+}
+
+.place-item:hover {
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2); /* Shadow on hover */
+}
+
+/* Button styles */
+.btn {
+  display: inline-block; /* Button takes up only necessary space */
+  margin-top: 10px; /* Space above the button */
+  padding: 10px 15px;
+  background-color: #007bff; /* Primary button color */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition */
+  text-align: center; /* Center text in button */
+  width: 100%; /* Ensure button width is 100% of its parent */
+  box-sizing: border-box; /* Include padding and border in width */
+}
+
+.btn:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+.add-place-btn {
+  background-color: #28a745; /* Different color for add place button */
+}
+
+.add-place-btn:hover {
+  background-color: #218838; /* Darker shade on hover */
+}
